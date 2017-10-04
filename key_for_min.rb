@@ -12,7 +12,7 @@ if holder[i] > holder[i+1]
   holder.delete(holder[i])
   elsif holder[i] < holder[i+1]
   holder.delete(holder[i+1])
-end
+  end
 end
 holder
 name_hash.key(holder[0])
