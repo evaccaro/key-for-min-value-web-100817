@@ -8,9 +8,9 @@ def key_for_min_value(name_hash)
   end
   holder.each do |a,b|
     while holder.length > 1
-    if a < b 
+    if a < b
       holder.delete(b)
-    elsif b < a 
+    elsif b < a
       holder.delete(a)
     end
   end
