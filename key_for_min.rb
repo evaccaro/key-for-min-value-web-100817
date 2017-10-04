@@ -13,6 +13,5 @@ def key_for_min_value(name_hash)
       num.delete(b)
     end
     end
-    end
     num
 end
