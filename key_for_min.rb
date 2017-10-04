@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |key, val|
     holder.push(val)
   end
-  i = 0 
+  i = 0
 while holder.length > 1
 if holder[i] > holder[i+1]
   holder.delete(holder[i])
@@ -17,4 +17,3 @@ end
 holder
 name_hash.key(holder[0])
 end
-
