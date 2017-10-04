@@ -7,14 +7,12 @@ def key_for_min_value(name_hash)
     num.push(val)
   end
   num.each do |a, b|
-    if a > b 
+    if a > b
       num.delete(a)
-    elsif a < b 
+    elsif a < b
       num.delete(b)
     end
-      
     end
-      
-      
     end
+    num
 end
